@@ -1,0 +1,36 @@
+# Settings for Cloud Run
+# runConfig:
+#   minInstances: 2
+#   maxInstances: 100
+#   concurrency: 100
+#   cpu: 2
+#   memoryMiB: 1024
+
+# Environment variables and secrets
+env:
+  - variable: NEXT_PUBLIC_FIREBASE_API_KEY
+    value:
+
+  - variable: NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN
+    value:
+
+  - variable: NEXT_PUBLIC_FIREBASE_PROJECT_ID
+    value:
+
+  - variable: NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET
+    value:
+
+  - variable: FIREBASE_CLIENT_EMAIL
+    value:
+
+  - variable: FIREBASE_PRIVATE_KEY_ID
+    value:
+
+  - variable: NEXT_PUBLIC_API_BASE_URL
+    value:
+
+  # SECRETS
+  # IMPORTANTE: adicionar papel de "Assessor de secret do Secret Manager" no IAM para a conta firebase-app-hosting-compute
+  # secret with the long form secret reference with pinned version.
+  - variable: FIREBASE_PRIVATE_KEY
+    secret:
