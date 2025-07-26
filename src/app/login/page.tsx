@@ -35,7 +35,7 @@ export default function LoginPage() {
 
     return (
         <div className="flex flex-col items-center justify-center min-h-screen p-4 bg-gray-100 dark:bg-gray-900">
-            <h1 className="mb-4 text-2xl font-bold text-center">NR Digital CCB</h1>
+            <h1 className="mb-4 text-2xl font-bold text-center">NextDash</h1>
 
             <div className="w-full max-w-md p-6 bg-white dark:bg-gray-800 rounded shadow">
                 <h2 className="mb-4 text-xl font-bold text-center">Login</h2>

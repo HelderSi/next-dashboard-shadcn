@@ -36,7 +36,7 @@ export const DesktopNav = ({ isCollapsed, onIsCollapsedChange }: SidebarProps) =
                                 <img src="/vercel.svg" alt="Logo" className="w-8 h-8" />
                             </div> */}
                             {/* Sidebar Name (Hidden when isCollapsed) */}
-                            <h1 className="text-lg font-semibold text-gray-900 dark:text-gray-100">NR Digital</h1>
+                            <h1 className="text-lg font-semibold text-gray-900 dark:text-gray-100">Next Dash</h1>
                         </div>}
                     {/* Collapse Button */}
                     <Button

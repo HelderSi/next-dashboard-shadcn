@@ -9,10 +9,9 @@
  *  - fácil conversão para objetos aninhados
  * a quantidade máxima de caracteres que um campo pode ter no firestore é de aproximadamente 1500 caracteres(1.5KB)
  * Ex:
- * nr35_aso_date: Date; => nr35: { aso: { date: Date } };
- * nr35_aso_certificateUrl: string; => nr35: { aso: { certificateUrl: string } };
- * comumIgreja_bairro: string; => comumIgreja: { bairro: string };
- * livroVerde_numero: string; => livroVerde: { numero: string };
+ * address_street: string; => address: { street: string };
+ * files_fileUrl: string; => files: { fileUrl: string };
+ * shopSales_count: number; => shopSales: { count: number };
  */
 
 export enum StatusEnum {

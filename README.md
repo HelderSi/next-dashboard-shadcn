@@ -39,3 +39,17 @@ bash generate-module.sh --from customer --to product \
 | `--from`     | Sim         | Nome base do módulo existente (ex: `customer`)                               |
 | `--to`       | Sim         | Nome base do novo módulo que será criado (ex: `product`)                     |
 | `--replaces` | Não         | Lista de substituições adicionais de texto (ex: `velho1:novo1,velho2:novo2`) |
+
+## Atualizar pnpm
+
+### Update to latest version
+
+```bash
+pnpm run update-pnpm
+```
+
+### Update to specific version
+
+```bash
+pnpm run update-pnpm 10.13.1
+```
