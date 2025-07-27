@@ -34,11 +34,11 @@ bash generate-module.sh --from customer --to product \
   --replaces "customer:product,customers:products"
 ```
 
-| Parâmetro    | Obrigatório | Descrição                                                                    |
-| ------------ | ----------- | ---------------------------------------------------------------------------- |
-| `--from`     | Sim         | Nome base do módulo existente (ex: `customer`)                               |
-| `--to`       | Sim         | Nome base do novo módulo que será criado (ex: `product`)                     |
-| `--replaces` | Não         | Lista de substituições adicionais de texto (ex: `velho1:novo1,velho2:novo2`) |
+| Parâmetro    | Obrigatório | Descrição                                                                      |
+| ------------ | ----------- | ------------------------------------------------------------------------------ |
+| `--from`     | Sim         | Nome base do módulo existente (ex: `customer`)                                 |
+| `--to`       | Sim         | Nome base do novo módulo que será criado (ex: `product`)                       |
+| `--replaces` | Não         | Lista de substituições adicionais de texto (ex: `origem1:novo1,origem2:novo2`) |
 
 ## Atualizar pnpm
 

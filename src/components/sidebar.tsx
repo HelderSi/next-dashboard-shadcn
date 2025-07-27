@@ -1,16 +1,12 @@
 import { Button } from "@/components/ui/button";
-import { Home, Settings, Users, SidebarOpen, PanelLeft, SidebarClose } from "lucide-react";
+import { SidebarOpen, PanelLeft, SidebarClose } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import clsx from "clsx";
 import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
 import { UserProfile } from "@/app/(dashboard)/user";
+import { navItems } from "@/consts/navItems";
 
-const navItems = [
-    { name: "Início", icon: Home, path: "/" },
-    { name: "Clientes", icon: Users, path: "/customers" },
-    { name: "Configuração", icon: Settings, path: "/settings" },
-];
 
 type SidebarProps = {
     handleSignOut: () => void;
